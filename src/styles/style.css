@@ -1,0 +1,37 @@
+@import url(./../block/app/App.css);
+/*Header*/
+@import url(./../block/header/header.css);
+@import url(./../block/header/__menu/header__menu.css);
+@import url(./../block/header/__menu/__open-menu/header__open-menu.css);
+@import url(./../block/header/__socials/header__socials.css);
+@import url(./../block/header/__socials/__link/h-socials__link.css);
+@import url(./../block/header/__menu/header__menu.css);
+@import url(./../block/header/__menu/__wrap/h-menu__wrap.css);
+@import url(./../block/header/__menu/__link/h-menu__link.css);
+@import url(./../block/header/__menu/__item/h-menu__item.css);
+@import url(./../block/header/__menu/__item/-whapp/h-menu__item-whapp.css);
+@import url(./../block/header/__logo/header__logo.css);
+@import url(./../block/container/container.css);
+@import url(./../block/header/__wrap/header__wrap.css);
+/*Footer*/
+@import url(./../block/footer/footer.css);
+@import url(./../block/footer/__logo/footer__logo.css);
+@import url(./../block/footer/__item/f-info__item.css);
+@import url(./../block/footer/__info/footer__info.css);
+@import url(./../block/footer/__copyrights/footer__copyrights.css);
+
+/*Contact*/
+@import url(./../block/hidden/hidden.css);
+@import url(./../block/contact/contact.css);
+@import url(./../block/contact/-page/contact-page.css);
+@import url(./../block/contact/__title/contact__title.css);
+@import url(./../block/contact/__span/contact__span.css);
+@import url(./../block/contact/__paragraph/contact-page__paragraph.css);
+@import url(./../block/contact/__map/contact-page__img.css);
+@import url(./../block/contact/__iframe/contact-page__iframe.css);
+@import url(./../block/contact/__body/contact__body.css);
+@import url(./../block/contact/-text/contact-text.css);
+@import url(./../block/contact/-item/contact-item.css);
+@import url(./../block/contact/-page/__body/contact-page__body.css);
+@import url(./../block/value/value.css);
+@import url(./../block/contact/__logo/contact__logo.css);

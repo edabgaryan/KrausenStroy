@@ -1,0 +1,31 @@
+.h-menu__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.h-menu__link:hover::after {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: width 500ms linear 0ms;
+}
+.h-menu__link:after {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 0%;
+  background: -webkit-linear-gradient(left, #020f0b 0%, #000000e8 100%);
+}
+@media screen and (max-width: 1024px) {
+  .h-menu__link {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .h-menu__link:hover {
+    color: #ffffff83;
+  }
+  .h-menu__link:after {
+    background: none;
+  }
+}

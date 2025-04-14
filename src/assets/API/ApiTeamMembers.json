@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Alice Smith",
+        "role": "Architect",
+        "email": "alice@example.com",
+        "photo": "https://i.ibb.co/spYgY18c/C2ts-YVBvq17-Itb6-Zwz5uhby-Pu-K8.jpg"
+    },
+    {
+        "name": "Bob Johnson",
+        "role": "Designer",
+        "email": "bob@example.com",
+        "photo": "https://i.ibb.co/zhyzsWxy/2prx9n-HAGrwna-XOCu-Pee-IIDi-T4.jpg"
+    },
+    {
+        "name": "Charlie Brown",
+        "role": "Project Manager",
+        "email": "charlie@example.com",
+        "photo": "https://i.ibb.co/dwW6wgdV/p-HVqff5v5-Vn-I4a-LXZSpv-Unds-Tw.jpg"
+    }
+]

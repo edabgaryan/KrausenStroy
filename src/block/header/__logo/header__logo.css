@@ -1,0 +1,12 @@
+.header__logo {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 50px;
+  position: relative;
+  width: 150px;
+  z-index: 2;
+  background-image: url("https://i.ibb.co/fdQJVfYJ/lg-Photoroom.png");
+
+}

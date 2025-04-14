@@ -1,0 +1,11 @@
+.contact-text {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  width: 80%;
+}
+@media screen and (max-width: 1024px) {
+  .contact-text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+@media screen and (max-width: 650px) {
+  .footer__info {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+.f-info__block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

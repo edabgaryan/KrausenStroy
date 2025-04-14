@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 17;
+  background-color: white;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.header, .header:before {
+  left: 0;
+  top: 0;
+  width: 100%;
+}

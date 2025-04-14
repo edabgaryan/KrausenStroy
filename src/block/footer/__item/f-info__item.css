@@ -1,0 +1,13 @@
+.f-info__item {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.f-info__item:hover {
+  color: #0000008a;
+}
+@media screen and (max-width: 1024px) {
+  .f-info__item {
+
+  }
+}

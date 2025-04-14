@@ -1,0 +1,15 @@
+.h-menu__wrap {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+@media screen and (max-width: 1024px) {
+    .h-menu__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+}

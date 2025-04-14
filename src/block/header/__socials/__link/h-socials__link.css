@@ -1,0 +1,21 @@
+.h-socials__link {
+  display: flex;
+  height: 25px;
+  width: 40px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vk {
+  border-left: 1px solid black;
+}
+
+.h-socials__link:hover {
+  opacity: 1;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+@media screen and (max-width: 767px) {
+  .h-socials__link {
+    width: 30px;
+  }
+}

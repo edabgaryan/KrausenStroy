@@ -1,0 +1,13 @@
+.contact-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-item {
+    width: 200px;
+  }
+}

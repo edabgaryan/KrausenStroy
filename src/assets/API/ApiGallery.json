@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "src": "https://i.ibb.co/vCCqVcjq/photo-2025-04-10-13-45-47.jpg",
+      "alt": "Image 1",
+      "description": "Хаус Лайн 100м²",
+      "path": "/project/Dom100"
+    },
+    {
+      "id": 2,
+      "src": "https://i.ibb.co/Pdm6RRz/photo-2025-04-10-13-45-56.jpg",
+      "alt": "Image 2",
+      "description": "Мансардный уют 120м²",
+      "path": "/project/Mansarda100"
+    },
+    {
+      "id": 3,
+      "src": "https://i.ibb.co/nsRpCwBW/fabula-ai.png",
+      "alt": "Image 3",
+      "description": "Сканди хаус 160м²",
+      "path": "/project/SkandiHouse"
+    },
+    {
+      "id": 4,
+      "src": "https://i.ibb.co/3yD25yYT/photo-3-2025-04-11-19-47-17.jpg",
+      "alt": "Image 4",
+      "description": "Сканди хаус 100м²",
+      "path": "/project/SkandiHouse2"
+    }
+  ]
+  
