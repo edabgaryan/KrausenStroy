@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Contact() { 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  useEffect(() => {
+    // Когда компонент монтируется, прокручиваем страницу к верху
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleSubmit = (e) => {
       e.preventDefault();
