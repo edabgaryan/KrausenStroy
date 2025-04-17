@@ -9,8 +9,7 @@
 .App {
     margin: 0 auto;
     height: 100%;
-    max-width: 1280px;
-    font-family: system-ui;
+    font-family: "Urbanist", "Urbanist Placeholder", sans-serif;
     padding: 10px;
  }
 
@@ -43,7 +42,7 @@
   background-color: white; /* Белый фон для текстового блока */
   padding: 32px; /* Отступы вокруг текста */
   margin: 20px; /* Отступ от краев изображения */
-  max-width: 364px; /* Задаем ширину текстового блока */
+  max-width: 310px; /* Задаем ширину текстового блока */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для глубины */
   border-radius: 10px; /* Скругление углов */
   display: flex;
@@ -66,7 +65,7 @@
 .feature__wrap-images {
   display: block;
   width: 100%;
-  height: 100%;
+  max-height: 750px;
   object-position: center center;
   object-fit: cover;
   border-radius: 20px;
@@ -199,9 +198,10 @@
 }
 
 .service__display-img {
-  max-width: 100%; /* Максимальная ширина изображения */
+  width: 100%; /* Максимальная ширина изображения */
   border-radius: 20px;
   object-fit: cover;
+  max-height: 750px;
 }
 
 .service__display-text-overlay {
@@ -364,9 +364,34 @@
   opacity: 0;
   transition: opacity 0.7s ease;
 }
-
-.gallery__block:hover .gallery__overlay {
+.gallery__overlay-price {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    align-items: center;
+    top: 20px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: min-content;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+}
+.gallery__overlay__price-text {
+  color: #000;
+  font-weight: 400;
+  font-size: 23px; /* Размер текста */
+  text-align: center; /* Центрирование текста */
+}
+.gallery__block:hover .gallery__overlay  {
   opacity: 1; /* Показать оверлей при наведении на картину */
+}
+.gallery__block:hover .gallery__overlay-price {
+  opacity: 1;
 }
 
 
@@ -470,7 +495,7 @@
 .about__w-img img {
   display: block;
   width: 100%;
-  height: 100%;
+  max-height: 750px;
   border-radius: inherit;
   object-position: center center;
   object-fit: cover;
@@ -509,7 +534,7 @@
 }
 .value__b-p-images{
   width: 100%;                     /* Устанавливаем ширину изображения 100% от родителя */
-  height: 100%;                    /* Устанавливаем высоту изображения 100% от родителя */
+  max-height: 750px;             /* Устанавливаем высоту изображения 100% от родителя */
   object-fit: cover;               /* Обеспечиваем обрезку изображения с сохранением пропорций */
   border-radius: 20px;
 }
@@ -818,6 +843,9 @@
   .gallery__overlay {
     opacity: 1;
   }
+  .gallery__overlay-price {
+    opacity: 1;
+  }
   .gallery__overlay-text {
     font-size: 29px;
   }
@@ -950,8 +978,14 @@
   .gallery__overlay {
     padding: 7px;
   }
+  .gallery__overlay-price {
+    padding: 7px;
+  }
   .gallery__overlay-text {
     font-size: 16px;
+  }
+  .gallery__overlay__price-text {
+    font-size: 14px;
   }
   .feature {
     margin-bottom: 70px;
