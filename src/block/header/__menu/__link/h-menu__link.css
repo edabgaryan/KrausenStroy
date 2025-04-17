@@ -2,7 +2,6 @@
   text-decoration: none;
   color: #000000;
   font-size: 16px;
-  text-transform: uppercase;
 }
 .h-menu__link:hover::after {
   opacity: 1;

@@ -16,7 +16,7 @@ export default function Home() {
         <div className='feature__block'>
           <div className='feature__wrap'>
             <div className='feature__container'>
-              <img className="feature__wrap-images" src="https://i.ibb.co/Lhgsszxw/ZIGNs-Uvx4-PHL7fkwdob-KVHv-Zjl8.jpg" alt="#" />
+              <img className="feature__wrap-images" src="https://i.ibb.co/r2vfxMGD/Chat-GPT-Image-17-2025-23-11-44-1.png" alt="#" />
               <div className='feature__text-block'>
                   <h3 className='feature__wrap-title'>Постройте дом своей мечты.</h3>
                   <p className='feature__wrap-paragraph'>Проектируем и строим современные дома.</p>

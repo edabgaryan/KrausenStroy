@@ -9,7 +9,7 @@
 .App {
     margin: 0 auto;
     height: 100%;
-    font-family: "Urbanist", "Urbanist Placeholder", sans-serif;
+    font-family: "PT Sans", sans-serif;
     padding: 10px;
  }
 
@@ -20,7 +20,30 @@
     font-weight: normal;
     font-style: normal;
   }
-
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
   /* Feature*/
 .feature {
@@ -119,6 +142,7 @@
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
+  max-width: 715px;
 }
 .experience__text-paragraph {
   font-size: 29px;
@@ -148,6 +172,7 @@
 }
 .experience__g-i-title {
   font-size: 48px;
+  font-weight: 400;
 }
 .experience__g-i-paragraph {
   font-size: 16px;
@@ -177,7 +202,7 @@
 
 .service__container-btn {
   padding: 32px;
-  font-size: 35px;
+  font-size: 32px;
   color: rgb(0, 0, 0); /* Цвет текста кнопки */
   background-color: rgb(245, 245, 245); /* Начальный цвет кнопок */
   border: none;
@@ -483,6 +508,7 @@
 }
 .w-box__paragraph {
   font-size: 16px;
+  font-weight: 400;
   color: #616161;
 }
 .about__w-img {
