@@ -10,7 +10,7 @@
     margin: 0 auto;
     height: 100%;
     font-family: "PT Sans", sans-serif;
-    padding: 10px;
+    padding: 0 30px;
  }
 
   @font-face {
@@ -47,7 +47,7 @@
 
   /* Feature*/
 .feature {
-  margin-top: 70px;
+  margin-top: 71px;
   margin-bottom: 100px;
 }
 .feature__title {
@@ -488,7 +488,7 @@
 
 /* About */
 .about {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 140px;
 }
 
@@ -746,7 +746,7 @@
 /*Buy*/
 
 .buy {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 140px;
 }
 .buy__main-text {
@@ -790,6 +790,7 @@
 .buy__option-description {
   font-size: 16px;
   color: #616161;
+  list-style: none;
 }
 .buy__ipoteka-block {
   margin-top: 48px;
@@ -801,7 +802,7 @@
 
 /*Project*/
 .project {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 140px;
   display: flex;
   flex-direction: column;
@@ -812,7 +813,118 @@
   font-size: 48px;
 }
 
+
+/*NotFounPAge*/
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+.notfound__title {
+  font-size: 7rem;
+  margin: 0;
+  color: #222;
+}
+
+.notfound__text {
+  font-size: 1.5rem;
+  color: #555;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.notfound__button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.notfound__button:hover {
+  background-color: #333;
+}
+.contact-modern {
+  background: #fff;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+
+.contact-modern__title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+.contact-modern__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-modern__column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-modern__label {
+  font-size: 18px;
+  color: #8e8e98;
+  margin-bottom: 10px;
+}
+
+.contact-modern__value {
+  font-size: 18px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.contact-modern__value:hover {
+  text-decoration: underline;
+}
+
+.contact-modern__socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.contact-modern__socials a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: 0.3s;
+}
+
+.contact-modern__socials a:hover {
+  border-color: #000;
+  color: #000;
+}
+
+
 @media screen and (max-width: 1024px) {
+  .App {
+    padding: 0 10px;
+  }
   .feature__text-block  {
     margin: 0;
     padding: 0;
@@ -970,6 +1082,9 @@
     }
     .buy__option-block {
       padding: 23px;
+    }
+    .contact-modern__title {
+      font-size: 32px;
     }
 }
 @media screen and (max-width: 650px) {

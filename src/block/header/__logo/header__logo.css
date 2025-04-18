@@ -3,10 +3,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 60px;
+  height: 70px;
   position: relative;
-  width: 150px;
+  width: 130px;
   z-index: 2;
-  background-image: url("https://i.ibb.co/PZYZvrWq/Chat-GPT-Image-18-2025-00-25-19.png");
+  background-image: url("https://i.ibb.co/LD62n6R2/Chat-GPT-Image-18-2025-13-21-16-1.png");
 
+}
+@media (max-width: 1024px) {
+  .header__logo {
+    height: 100px;
+    width: 70px;
+  }
 }
