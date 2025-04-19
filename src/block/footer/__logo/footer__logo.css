@@ -3,6 +3,7 @@
     width: 100%;
     max-width: 18em;
     margin: 0 auto;
+    background-image: url("https://i.ibb.co/LD62n6R2/Chat-GPT-Image-18-2025-13-21-16-1.png");
 }
 @media screen and (max-width: 400px) {
     .footer__logo {

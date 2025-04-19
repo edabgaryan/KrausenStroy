@@ -1,9 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import PageWrapper from '../../components/PageWrapper/PageWrapper';
 
-export default function Notefondpage() {
+const NotFound = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis atque voluptatem ipsam, dolor ducimus quam labore cum quis tempora eius, consequuntur doloremque, voluptatum laborum aut? Nemo debitis exercitationem placeat reiciendis, voluptas nesciunt commodi odit vel aperiam doloribus voluptatibus, atque fuga adipisci natus, officiis voluptate nostrum incidunt hic esse nisi. Magni quis fugiat vero facilis odio laborum nesciunt eos fugit accusantium qui. Accusamus a corporis, assumenda ea modi excepturi nemo libero ullam vero ad voluptas est tenetur autem molestias repellendus sed similique qui impedit minima, optio fuga necessitatibus blanditiis eius neque. Dicta, voluptates vel voluptate sed, reprehenderit id doloribus aliquid dolor labore culpa consequuntur. Numquam inventore assumenda cumque doloremque nisi hic. Dignissimos, voluptate natus dolor cumque, numquam odio eius nobis molestias inventore illum sequi obcaecati aperiam quo perspiciatis quasi neque quibusdam. Beatae excepturi sed a accusantium odio enim quisquam, incidunt aut debitis placeat quo.
-      </div>
+    <PageWrapper>
+      <motion.div
+        className="notfound"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <h1 className="notfound__title">404</h1>
+        <p className="notfound__text">
+          Упс... страница не найдена или ещё в строительстве.
+        </p>
+        <Link to="/" className="notfound__button">
+          Вернуться на главную
+        </Link>
+      </motion.div>
+    </PageWrapper>
   );
-}
+};
+
+export default NotFound;
