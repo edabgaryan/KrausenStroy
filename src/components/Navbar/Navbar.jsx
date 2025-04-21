@@ -10,6 +10,7 @@ import Dom100 from '../../pages/Project/Dom100/Dom100';
 import Mansarda100 from '../../pages/Project/Mansarda100/Mansarda100';
 import SkandiHouse from '../../pages/Project/SkandiHouse/SkandiHouse';
 import SkandiHouse2 from '../../pages/Project/SkandiHouse2/SkandiHouse2';
+import HiTech90 from '../../pages/Project/HiTech90/HiTech90';
 import Contact from '../../pages/Contact/Contact';
 import Notefondpage from '../../pages/Notfoundpage/Notefondpage';
 
@@ -74,6 +75,7 @@ export default function Navbar() {
           <Route path="/project/Mansarda100" element={<Mansarda100 />} />
           <Route path="/project/SkandiHouse" element={<SkandiHouse />} />
           <Route path="/project/SkandiHouse2" element={<SkandiHouse2 />} />
+          <Route path="/project/HiTech90" element={<HiTech90 />} />
           <Route path="*" element={<Notefondpage />} />
         </Routes>
       </AnimatePresence>

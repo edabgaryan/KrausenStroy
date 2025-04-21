@@ -38,7 +38,6 @@ export default function Home() {
         <div className='experience'>
             <div className="experience__text-column">
               <h3 className="experience__text-title">Хотите современную виллу, уютный коттедж или индивидуальный проект?</h3>
-              <p className="experience__text-paragraph">Мы реализуем любую вашу идею</p>
             </div>
             <div className="experience__grid-column">
               <div className="experience__grid-container">

@@ -4,7 +4,7 @@
       "src": "https://i.ibb.co/vCCqVcjq/photo-2025-04-10-13-45-47.jpg",
       "alt": "Image 1",
       "description": "Хаус Лайн 100м²",
-      "descriptionprice": "6 500 000",
+      "descriptionprice": "от 5 000 000",
       "path": "/project/Dom100"
     },
     {
@@ -12,24 +12,32 @@
       "src": "https://i.ibb.co/7xcVJztm/Chat-GPT-Image-17-2025-23-31-15-1.png",
       "alt": "Image 2",
       "description": "Мансардный уют 120м²",
-      "descriptionprice": "6 500 000",
+      "descriptionprice": "от 4 500 000",
       "path": "/project/Mansarda100"
     },
     {
       "id": 3,
-      "src": "https://i.ibb.co/DDQhhhJW/Chat-GPT-Image-17-2025-23-23-59.png",
+      "src": "https://i.ibb.co/dSMthJK/Chat-GPT-Image-17-2025-23-31-33-1.png",
       "alt": "Image 3",
-      "description": "Сканди хаус 160м²",
-      "descriptionprice": "6 500 000",
-      "path": "/project/SkandiHouse"
+      "description": "Сканди хаус 100м²",
+      "descriptionprice": "от 4 500 000",
+      "path": "/project/SkandiHouse2"
     },
     {
       "id": 4,
-      "src": "https://i.ibb.co/dSMthJK/Chat-GPT-Image-17-2025-23-31-33-1.png",
+      "src": "https://i.ibb.co/ccHNdVL4/Maison-moderne-dans-un-jardin-verdoyant-1.png",
       "alt": "Image 4",
-      "description": "Сканди хаус 100м²",
-      "descriptionprice": "6 500 000",
-      "path": "/project/SkandiHouse2"
+      "description": "Хай-тек 90м²",
+      "descriptionprice": "от 4 500 000",
+      "path": "/project/HiTech90"
+    },
+    {
+      "id": 5,
+      "src": "https://i.ibb.co/DDQhhhJW/Chat-GPT-Image-17-2025-23-23-59.png",
+      "alt": "Image 5",
+      "description": "Сканди хаус 160м²",
+      "descriptionprice": "от 7 590 000",
+      "path": "/project/SkandiHouse"
     }
   ]
   
