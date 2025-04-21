@@ -16,7 +16,7 @@ export default function HeaderSocials({ onClickMenu, onCloseMenu }) {
         </div>
         <li className="h-socials__item vk">
           <a
-            href="https://t.me/edabgaryan"
+            href="https://t.me/DOMAIZBLOKOV39"
             rel="noreferrer"
             target="_blank"
             alt="vk"
