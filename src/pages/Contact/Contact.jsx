@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { FaInstagram, FaTelegramPlane, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTelegramPlane } from 'react-icons/fa';
+import { IoLogoWhatsapp } from "react-icons/io";
 import PageWrapper from '../../components/PageWrapper/PageWrapper';
 
 export default function Contact() {
@@ -20,14 +21,14 @@ export default function Contact() {
             </div>
             <div className="contact-modern__column">
               <p className="contact-modern__label">Почта</p>
-              <a className="contact-modern__value" href="mailto:NMDomStroy@gmail.com">NMDomStroy@gmail.com</a>
+              <a className="contact-modern__value" href="mailto:domaizblokov@gmail.com">DOMAIZBLOKOV@gmail.com</a>
             </div>
             <div className="contact-modern__column">
               <p className="contact-modern__label">Соц. сети</p>
               <div className="contact-modern__socials">
-                <a href="https://www.instagram.com/yourpage" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="https://www.instagram.com/domaizblokov" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                 <a href="https://t.me/NMDomStroy" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+                <a href="https://api.whatsapp.com/send/?phone=79097982752" target="_blank" rel="noopener noreferrer"><IoLogoWhatsapp /></a>
               </div>
             </div>
           </div>
