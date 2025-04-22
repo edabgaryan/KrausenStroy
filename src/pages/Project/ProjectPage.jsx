@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const ProjectPage = ({ data }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -77,24 +78,11 @@ const ProjectPage = ({ data }) => {
       </div>
 
       {isModalOpen && (
-        <div className="PP__modal">
-          <div className="PP__modal-overlay" onClick={closeModal}></div>
-          <div className="PP__modal-content">
-            <button className="PP__modal-close" onClick={closeModal}>
-              &times;
-            </button>
-            <button className="PP__modal-next" onClick={showNext}>
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="9 6 15 12 9 18" />
-              </svg>
-            </button>
-            <img src={data.images[currentIndex]} alt={`modal-${currentIndex}`} className="PP__modal-image" />
-            <button className="PP__modal-prev" onClick={showPrev}>
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="15 6 9 12 15 18" />
-              </svg>
-            </button>
-          </div>
+        <div className="modal" onClick={closeModal}>
+          <span className="modal-close" onClick={closeModal}>&times;</span>
+          <button className="modal-prev" onClick={(e) => { e.stopPropagation(); showPrev(); }}>&#10094;</button>
+          <img src={data.images[currentIndex]} alt={`modal-${currentIndex}`} className="modal-img" onClick={(e) => e.stopPropagation()} />
+          <button className="modal-next" onClick={(e) => { e.stopPropagation(); showNext(); }}>&#10095;</button>
         </div>
       )}
     </div>

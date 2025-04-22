@@ -5,6 +5,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from '../../pages/Home/Home';
 import About from '../../pages/About/About';
 import Project from '../../pages/Project/Project';
+import Gallery from '../../pages/Gallery/Gallery';
 import Buy from '../../pages/Buy/Buy';
 import Dom100 from '../../pages/Project/Dom100/Dom100';
 import Mansarda100 from '../../pages/Project/Mansarda100/Mansarda100';
@@ -15,6 +16,7 @@ import Contact from '../../pages/Contact/Contact';
 import Notefondpage from '../../pages/Notfoundpage/Notefondpage';
 
 import HeaderSocials from '../HeaderSocials/HeaderSocials';
+
 
 export default function Navbar() {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -37,6 +39,7 @@ export default function Navbar() {
                 { to: '/', label: 'Главная' },
                 { to: '/about', label: 'О нас' },
                 { to: '/project', label: 'Проекты' },
+                { to: '/gallery', label: 'Галерея' },
                 { to: '/buy', label: 'Как купить' },
                 { to: '/contact', label: 'Контакты' },
               ].map(({ to, label }) => (
@@ -69,6 +72,7 @@ export default function Navbar() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/buy" element={<Buy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project/Dom100" element={<Dom100 />} />
