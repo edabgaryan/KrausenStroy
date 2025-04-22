@@ -14,12 +14,14 @@ const Dom100Data = {
     "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
   ],
   images: [
-    "https://i.ibb.co/2YNYsXYC/image.jpg",
-    "https://i.ibb.co/BKzz8vjB/photo-2025-04-10-13-45-49.jpg",
-    "https://i.ibb.co/VcYND5Sz/photo-2025-04-10-13-49-44.jpg",
-    "https://i.ibb.co/39c1xCzJ/photo-2025-04-10-14-20-15.jpg",
-    "https://i.ibb.co/B27hg5rg/photo-2025-04-10-13-49-54.jpg",
-    "https://i.ibb.co/V08LB1t1/photo-2025-04-10-14-06-18.jpg"
+    "https://i.ibb.co/cSWHCR64/photo-2025-04-10-13-45-49.jpg",
+        "https://i.ibb.co/NdkXygqy/image.jpg",
+    "https://i.ibb.co/YFZxBtKq/photo-2025-04-10-13-49-43-2.jpg",
+        "https://i.ibb.co/h6581vr/photo-2025-04-10-14-20-15.jpg",
+    "https://i.ibb.co/4ZbFbqJ0/photo-2025-04-10-13-49-44.jpg",
+    "https://i.ibb.co/JjGK2pQj/photo-2025-04-10-13-49-54.jpg"
+
+
   ]
 };
 
