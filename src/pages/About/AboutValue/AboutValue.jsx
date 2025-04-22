@@ -8,9 +8,6 @@ export default function AboutValue() {
             <p className='value__paragraph'>Концепции окружающей среды в архитектуре относятся к стратегиям проектирования и внедрения, которые сосредоточены на сохранении природных ресурсов, сохранении энергии, управлении отходами и создании здоровой внутренней среды.</p>
         </div>
         <div className='value__container'>
-            <div className='value__block-photo'>
-                <img className='value__b-p-images' src="https://i.ibb.co/wN2yr6wM/3v-P3o2-K6p-FYCVWd5-Slixdw-EBb-WY.jpg" alt="" />
-            </div>
             <div className='value__column'>
                     <div className="value__c-item">
                         <h3 className='value__c-star'>*</h3>

@@ -553,11 +553,7 @@
   text-align: left;                
   color: #616161;
 }
-.value__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
+
 .value__b-p-images{
   width: 100%;                     /* Устанавливаем ширину изображения 100% от родителя */
   max-height: 750px;             /* Устанавливаем высоту изображения 100% от родителя */
