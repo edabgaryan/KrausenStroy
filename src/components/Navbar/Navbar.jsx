@@ -49,17 +49,6 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
-
-              <li className="h-menu__item h-menu__item-whapp">
-                <a
-                  href="https://api.whatsapp.com/send/?phone=79622535796"
-                  className="h-menu__link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  WhatsApp
-                </a>
-              </li>
             </ul>
           </nav>
 

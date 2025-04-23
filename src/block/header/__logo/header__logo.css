@@ -3,11 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 70px;
+  height: 50px;
   position: relative;
-  width: 130px;
+  width: 110px;
   z-index: 2;
-  background-image: url("https://i.ibb.co/LD62n6R2/Chat-GPT-Image-18-2025-13-21-16-1.png");
+  background-image: url("https://i.ibb.co/qLNP0c51/logo-1.png");
 
 }
 @media (max-width: 1024px) {

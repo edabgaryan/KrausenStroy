@@ -14,13 +14,13 @@ export default function About() {
       <section className='about'>
         <div className='about__welcome'>
           <div className='about__w-box'>
-            <h2 className='w-box__title'>DOMAIZBLOKOV</h2>
-              <p className='w-box__paragraph'>DOMAIZBLOKOV — это команда, которая уже более 10 лет строит стильные и надёжные дома из блоков в Калининграде и области.
+            <h2 className='w-box__title'>DOMBERG</h2>
+              <p className='w-box__paragraph'>DOMBERG — это команда, которая уже более 10 лет строит стильные и надёжные дома из блоков в Калининграде и области.
                 Мы не просто строим дома — мы создаём продуманные пространства для жизни. Каждый проект — это сочетание архитектурной эстетики, инженерной точности и современного комфорта.</p>
               <p className='w-box__paragraph'>Мы сопровождаем клиентов на каждом этапе — от выбора участка до въезда в готовый дом.
 
                 Если вы ищете партнёра, которому можно доверить свой будущий дом — мы здесь.</p>
-              <p className='w-box__paragraph'>DOMAIZBLOKOV — дома, в которых хочется жить.</p>
+              <p className='w-box__paragraph'>DOMBERG — дома, в которых хочется жить.</p>
           </div>
           <div className='about__w-img'>
             <img src="https://i.ibb.co/FkChqShQ/dom4.jpg" alt="" />

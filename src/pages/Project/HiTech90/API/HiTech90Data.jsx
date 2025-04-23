@@ -14,12 +14,13 @@ const HiTech90Data = {
       "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
     ],
     images: [
-        "https://i.ibb.co/6JrqtvmK/Maison-moderne-au-c-ur-de-la-verdure-1.png",
-      "https://i.ibb.co/ccHNdVL4/Maison-moderne-dans-un-jardin-verdoyant-1.png",
-      "https://i.ibb.co/wFH6NbTH/Maison-moderne-au-cr-puscule-1.png",
-      "https://i.ibb.co/Z6L702ZM/Maison-moderne-dans-la-verdure-1.png",
-      "https://i.ibb.co/3m5zXkDW/5.jpg"
+      "https://i.ibb.co/Z6MMTz4F/Maison-moderne-au-cr-puscule.png",
+      "https://i.ibb.co/NPDWTQn/Maison-moderne-au-c-ur-de-la-verdure.png",
+      "https://i.ibb.co/67vcCG43/Maison-moderne-dans-la-verdure.png",
+      "https://i.ibb.co/d4Hn3ZdJ/Maison-moderne-dans-un-jardin-verdoyant.png",
+      "https://i.ibb.co/6JpYDdBB/5.jpg"
     ]
+    
   };
   
   export default HiTech90Data;
