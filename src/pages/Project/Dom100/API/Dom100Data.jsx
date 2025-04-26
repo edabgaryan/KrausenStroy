@@ -20,7 +20,6 @@ const Dom100Data = {
     "https://i.ibb.co/Dft3jkV5/photo-2025-04-10-13-49-44.jpg",
     "https://i.ibb.co/350JyQhd/photo-2025-04-10-13-49-54.jpg",
     "https://i.ibb.co/BKSnJZXV/photo-2025-04-10-14-20-15.jpg",
-    "https://i.ibb.co/twmLdzYR/image.jpg",
     "https://i.ibb.co/7xL6MwVq/photo-2025-04-10-14-06-18.jpg"
   ]
 };

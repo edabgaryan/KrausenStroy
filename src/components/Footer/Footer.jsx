@@ -10,11 +10,11 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__left">
-          <p>Калининград, ул. Примерная, 1</p>
-          <p><a href="tel:+79097813514">+7 (909) 798-27-52</a></p>
-          <p><a href="mailto:DOMBERG@gmail.com@gmail.com">DOMBERG@gmail.com</a></p>
+          <p>DOMBERG - Строительство малоэтажных домов</p>
+          <p><a href="tel:+79097982752">+7 (909) 798-27-52</a></p>
+          <p><a href="mailto:domberg39@gmail.com@gmail.com">DOMBERG39@gmail.com</a></p>
           <div className="footer__socials">
-            <a className='footer__' href="https://t.me/DOMBERG" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
+            <a className='footer__' href="https://t.me/DOMMBERG" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
             <a href="https://wa.me/79097982752" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
             <a href="https://instagram.com/DOMBERG39" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           </div>
