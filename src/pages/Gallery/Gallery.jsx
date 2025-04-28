@@ -13,7 +13,6 @@ const images = [
   "https://i.ibb.co/QvhHgzbF/photo-11-2025-04-22-19-42-53.jpg",
   "https://i.ibb.co/6QQK7Mg/photo-12-2025-04-22-19-42-53.jpg",
   "https://i.ibb.co/xSv0kGxp/photo-13-2025-04-22-19-42-53.jpg",
-  
   "https://i.ibb.co/1YfTzWdf/photo-14-2025-04-22-19-42-53.jpg",
   "https://i.ibb.co/4RdJ0mXj/photo-1-2025-04-22-19-56-42.jpg",
   "https://i.ibb.co/fz2zsmm3/photo-1-2025-04-22-19-59-49.jpg",
