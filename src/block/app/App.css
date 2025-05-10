@@ -9,8 +9,8 @@
 .App {
     margin: 0 auto;
     height: 100%;
-    font-family: "Urbanist", "Urbanist Placeholder", sans-serif;
-    padding: 10px;
+    font-family: "PT Sans", sans-serif;
+    padding: 0 30px;
  }
 
   @font-face {
@@ -20,11 +20,34 @@
     font-weight: normal;
     font-style: normal;
   }
-
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
   /* Feature*/
 .feature {
-  margin-top: 70px;
+  margin-top: 71px;
   margin-bottom: 100px;
 }
 .feature__title {
@@ -119,6 +142,7 @@
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
+  max-width: 715px;
 }
 .experience__text-paragraph {
   font-size: 29px;
@@ -148,6 +172,7 @@
 }
 .experience__g-i-title {
   font-size: 48px;
+  font-weight: 400;
 }
 .experience__g-i-paragraph {
   font-size: 16px;
@@ -177,7 +202,7 @@
 
 .service__container-btn {
   padding: 32px;
-  font-size: 35px;
+  font-size: 32px;
   color: rgb(0, 0, 0); /* Цвет текста кнопки */
   background-color: rgb(245, 245, 245); /* Начальный цвет кнопок */
   border: none;
@@ -463,7 +488,7 @@
 
 /* About */
 .about {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 140px;
 }
 
@@ -483,6 +508,7 @@
 }
 .w-box__paragraph {
   font-size: 16px;
+  font-weight: 400;
   color: #616161;
 }
 .about__w-img {
@@ -527,11 +553,7 @@
   text-align: left;                
   color: #616161;
 }
-.value__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
+
 .value__b-p-images{
   width: 100%;                     /* Устанавливаем ширину изображения 100% от родителя */
   max-height: 750px;             /* Устанавливаем высоту изображения 100% от родителя */
@@ -720,7 +742,7 @@
 /*Buy*/
 
 .buy {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 140px;
 }
 .buy__main-text {
@@ -764,6 +786,7 @@
 .buy__option-description {
   font-size: 16px;
   color: #616161;
+  list-style: none;
 }
 .buy__ipoteka-block {
   margin-top: 48px;
@@ -775,7 +798,7 @@
 
 /*Project*/
 .project {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 140px;
   display: flex;
   flex-direction: column;
@@ -786,7 +809,344 @@
   font-size: 48px;
 }
 
+
+/*NotFounPAge*/
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+.notfound__title {
+  font-size: 7rem;
+  margin: 0;
+  color: #222;
+}
+
+.notfound__text {
+  font-size: 1.5rem;
+  color: #555;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.notfound__button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.notfound__button:hover {
+  background-color: #333;
+}
+.contact-modern {
+  background: #fff;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+
+.contact-modern__title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+.contact-modern__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-modern__column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-modern__label {
+  font-size: 18px;
+  color: #8e8e98;
+  margin-bottom: 10px;
+}
+
+.contact-modern__value {
+  font-size: 18px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.contact-modern__value:hover {
+  text-decoration: underline;
+}
+
+.contact-modern__socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.contact-modern__socials a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: 0.3s;
+}
+
+.contact-modern__socials a:hover {
+  border-color: #000;
+  color: #000;
+}
+/* Стили для калькулятора стоимости дома */
+/*
+.calculator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.result {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.saved-results {
+  margin-top: 2rem;
+}
+
+.saved-results h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.saved-results ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.saved-results li {
+  margin-bottom: 0.5rem;
+}
+*/
+.PP__modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PP__modal-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.PP__modal-wrapper {
+  position: relative;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.PP__modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  object-fit: contain;
+  z-index: 1001;
+}
+
+/* Кнопки без фона */
+.PP__modal-close,
+.PP__modal-prev,
+.PP__modal-next {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 1002;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  user-select: none;
+}
+
+.PP__modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.PP__modal-prev,
+.PP__modal-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.PP__modal-prev {
+  left: 20px;
+}
+
+.PP__modal-next {
+  right: 20px;
+}
+
+/*Ph-Gallery*/
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+.gallery__title {
+  font-size: 48px;
+}
+.gallery-img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.Ph__gallery {
+  margin-top: 80px;
+  margin-bottom: 140px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+}
+
+.modal-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-prev,
+.modal-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.modal-prev {
+  left: 20px;
+}
+
+.modal-next {
+  right: 20px;
+}
+
+
 @media screen and (max-width: 1024px) {
+  .App {
+    padding: 0 10px;
+  }
   .feature__text-block  {
     margin: 0;
     padding: 0;
@@ -944,6 +1304,12 @@
     }
     .buy__option-block {
       padding: 23px;
+    }
+    .contact-modern__title {
+      font-size: 32px;
+    }
+    .gallery__title {
+      font-size: 32px;
     }
 }
 @media screen and (max-width: 650px) {

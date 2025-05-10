@@ -5,8 +5,14 @@
   display: flex;
   height: 50px;
   position: relative;
-  width: 150px;
+  width: 110px;
   z-index: 2;
-  background-image: url("https://i.ibb.co/fdQJVfYJ/lg-Photoroom.png");
+  background-image: url("https://i.ibb.co/qLNP0c51/logo-1.png");
 
+}
+@media (max-width: 1024px) {
+  .header__logo {
+    height: 100px;
+    width: 70px;
+  }
 }

@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import ProjectPage from '../ProjectPage';
-import Dom100Data from './API/Dom100Data';
+import HiTech90Data from './API/HiTech90Data';
 import PageWrapper from '../../../components/PageWrapper/PageWrapper';
 
-const Dom100 = () => {
+const HiTech90 = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
   return (
     <PageWrapper>
-      <ProjectPage data={Dom100Data} />
+      <ProjectPage data={HiTech90Data} />
     </PageWrapper>
   );
 };
 
-export default Dom100;
+export default HiTech90;

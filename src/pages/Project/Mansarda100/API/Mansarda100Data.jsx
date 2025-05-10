@@ -1,6 +1,6 @@
 const PeakHouseData = {
     title: "Мансардный уют 120м²",
-    mainImage: "https://i.ibb.co/Pdm6RRz/photo-2025-04-10-13-45-56.jpg",
+    mainImage: "https://i.ibb.co/7xcVJztm/Chat-GPT-Image-17-2025-23-31-15-1.png",
     gridInfo: [
       { label: "Тип", value: "Одноэтажный дом" },
       { label: "Срок реализации", value: "90 дней" },
@@ -15,13 +15,15 @@ const PeakHouseData = {
       "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
     ],
     images: [
-      "https://i.ibb.co/Pdm6RRz/photo-2025-04-10-13-45-56.jpg",
-      "https://i.ibb.co/tw9Q2f97/photo-2025-04-10-13-45-57.jpg",
-      "https://i.ibb.co/XrWQVnFV/photo-2025-04-10-13-45-54.jpg",
-      "https://i.ibb.co/yn0Kp815/photo-2025-04-10-13-45-53.jpg",
-      "https://i.ibb.co/Gf5rRKMN/photo-2025-04-10-13-45-59.jpg",
-      "https://i.ibb.co/9mJYHN64/photo-2025-04-10-13-45-58.jpg"
+      "https://i.ibb.co/vxVpr9w1/photo-2025-04-10-13-45-56.jpg",
+      "https://i.ibb.co/rGzxMGqs/photo-2025-04-10-13-45-54.jpg",
+      "https://i.ibb.co/Nd6fcjVX/photo-2025-04-10-13-45-57.jpg",
+      "https://i.ibb.co/DPkPHpTQ/photo-2025-04-10-13-45-53.jpg",
+      "https://i.ibb.co/Jj3dzjxS/photo-2025-04-10-13-45-59.jpg",
+      "https://i.ibb.co/qFN9BdWF/photo-2025-04-10-13-45-58.jpg"
+ 
     ]
+    
   };
   
   export default PeakHouseData;

@@ -1,6 +1,6 @@
 const SkandiHouseData = {
     title: "Сканди хаус 160м²",
-    mainImage: "https://i.ibb.co/nsRpCwBW/fabula-ai.png",
+    mainImage: "https://i.ibb.co/DDQhhhJW/Chat-GPT-Image-17-2025-23-23-59.png",
     gridInfo: [
       { label: "Тип", value: "Одноэтажный дом" },
       { label: "Срок реализации", value: "90 дней" },
@@ -14,10 +14,10 @@ const SkandiHouseData = {
       "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
     ],
     images: [
-      "https://i.ibb.co/nsRpCwBW/fabula-ai.png",
-      "https://i.ibb.co/2Y7TTRt8/fabula-ai-2.png",
-      "https://i.ibb.co/SXMNzrJr/photo-2025-04-11-14-07-21-2.jpg",
-      "https://i.ibb.co/5gbd97XB/photo-2025-04-11-14-07-20-2.jpg"
+      "https://i.ibb.co/hRmSmSGv/fabula-ai.png",
+      "https://i.ibb.co/274cVDkb/photo-2025-04-11-14-07-21-2.jpg",
+      "https://i.ibb.co/x8HcKkfM/fabula-ai-2.png",
+      "https://i.ibb.co/kLPkm7r/photo-2025-04-11-14-07-20-2.jpg"
     ]
   };
   

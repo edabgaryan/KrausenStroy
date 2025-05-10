@@ -1,6 +1,6 @@
 import React from 'react';
-import { PiWhatsappLogoLight } from "react-icons/pi";
-import { PiTelegramLogoLight } from "react-icons/pi";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaInstagram, FaTelegramPlane, FaYoutube } from 'react-icons/fa';
 
 export default function HeaderSocials({ onClickMenu, onCloseMenu }) {
   return (
@@ -16,12 +16,12 @@ export default function HeaderSocials({ onClickMenu, onCloseMenu }) {
         </div>
         <li className="h-socials__item vk">
           <a
-            href="https://t.me/edabgaryan"
+            href="https://t.me/DOMMBERG"
             rel="noreferrer"
             target="_blank"
             alt="vk"
           >
-            <PiTelegramLogoLight color="#333" className="h-socials__link" />
+            <FaTelegramPlane color="#333" className="h-socials__link" />
           </a>
         </li>
         <li className="h-socials__item">
@@ -29,7 +29,7 @@ export default function HeaderSocials({ onClickMenu, onCloseMenu }) {
             rel="noreferrer"
             target="_blank"
             alt="Wtatsapp">
-            <PiWhatsappLogoLight color="#333" className="h-socials__link" />
+            <IoLogoWhatsapp color="#333" className="h-socials__link" />
           </a>
         </li>
 

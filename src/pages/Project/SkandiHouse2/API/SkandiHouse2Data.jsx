@@ -1,6 +1,6 @@
 const SkandiHouse2Data = {
     title: "Сканди хаус 100м²",
-    mainImage: "https://i.ibb.co/3yD25yYT/photo-3-2025-04-11-19-47-17.jpg",
+    mainImage: "https://i.ibb.co/fY0Shdhr/Chat-GPT-Image-17-2025-23-31-33-1.png",
     gridInfo: [
       { label: "Тип", value: "Одноэтажный дом" },
       { label: "Срок реализации", value: "90 дней" },
@@ -14,11 +14,13 @@ const SkandiHouse2Data = {
       "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
     ],
     images: [
-      "https://i.ibb.co/QjDpQfTC/photo-4-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/sJ3PXJVf/photo-1-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/p6v5FmvZ/photo-2-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/Tq1KtB2R/photo-5-2025-04-11-19-47-17.jpg"
+      "https://i.ibb.co/wF5GV9qh/photo-3-2025-04-11-19-47-17.jpg",
+      "https://i.ibb.co/pvGymQ14/photo-4-2025-04-11-19-47-17.jpg",
+      "https://i.ibb.co/3mVC6JwP/photo-1-2025-04-11-19-47-17.jpg",
+      "https://i.ibb.co/F4f0TxXK/photo-2-2025-04-11-19-47-17.jpg",
+      "https://i.ibb.co/W4p4nkxH/photo-5-2025-04-11-19-47-17.jpg"
     ]
+    
   };
   
   export default SkandiHouse2Data;
